@@ -1,0 +1,29 @@
+{
+  "name": "@xingming2020/template-react-component-library",
+  "version": "1.0.0",
+  "description": "A simple template for a custom React component library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Xingming Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.39",
+    "react": "^17.0.2",
+    "rollup": "^2.69.0",
+    "rollup-plugin-dts": "^4.2.0",
+    "typescript": "^4.6.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/xingming2020"
+  }
+}
